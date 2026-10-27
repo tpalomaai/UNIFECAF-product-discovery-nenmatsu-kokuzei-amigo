@@ -1,6 +1,6 @@
 # Instrução v2.1 — Nenmatsu Kokuzei Amigo
 
-Texto colado em "Configurar chat" do notebook v2 (1517 caracteres; o limite do NotebookLM é 1.500).
+Texto colado em "Configurar chat" do notebook v2 (1.442 caracteres; o limite do NotebookLM é 1.500).
 
 ## Histórico
 - **v2** (rodada 1 do eval): versão inicial
