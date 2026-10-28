@@ -8,7 +8,7 @@ Case de Product Discovery da disciplina **Metodologias Ágeis e Validação de P
 
 | O quê | Link | Para quê |
 |---|---|---|
-| 🎥 Vídeo pitch | [COLAR O LINK DO YOUTUBE] | O projeto em até 4 minutos |
+| 🎥 Vídeo pitch | [Assistir no YouTube](https://youtu.be/8c1KtLUDgbE) | O projeto em até 4 minutos |
 | 🤖 Assistente v2 — Nenmatsu Kokuzei Amigo | [Abrir no NotebookLM](https://notebook.google.com/notebook/ff5c43fc-adbe-49bc-aff0-a0a67c94022c) | Versão ajustada depois do teste |
 | 🤖 Assistente v1 | [Abrir no NotebookLM](https://notebook.google.com/notebook/fb38933d-f2a2-484e-ad90-f479220349fd) | Versão testada com as 8 pessoas |
 | 📝 Questionário | [Google Forms (encerrado)](https://docs.google.com/forms/d/e/1FAIpQLSdWkEzgEcBtztzTXN6StSxFSbEX4bHaYuxx9MwAe4zaqydfBw/viewform?usp=header) | O experimento |
