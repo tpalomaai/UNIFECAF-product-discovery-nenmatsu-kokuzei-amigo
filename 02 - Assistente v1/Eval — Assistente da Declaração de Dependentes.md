@@ -17,7 +17,7 @@ Como usar:
 - Resposta esperada: Não. Para não residentes de 30 a 69 anos, é preciso receber ¥380.000 ou mais no ano (ou ser estudante no exterior ou ter deficiência). ¥20.000 × 12 = ¥240.000, abaixo do limite.
 - Fonte: 記載例 p.1, B ② ロ(ハ)
 - Rodada 1:
-![[eval-pergunta-1.png]]
+![Pergunta 1, rodada 1](../Prints/eval-pergunta-1.png)
 - Rodada 2:
 
 ### 2. Mãe no Brasil, remessa suficiente
@@ -27,7 +27,7 @@ Como usar:
 - Fonte: 記載例 p.2, ❻
 - Rodada 1:
 
-![[eval-pergunta-2.png]]
+![Pergunta 2, rodada 1](../Prints/eval-pergunta-2.png)
 
 - Rodada 2:
 
@@ -38,7 +38,7 @@ Como usar:
 - Fonte: 記載例 p.2, seção 4 ❶
 - Rodada 1:
 
-![[eval-pergunta-3.png]]
+![Pergunta 3, rodada 1](../Prints/eval-pergunta-3.png)
 
 - Rodada 2:
 
@@ -49,7 +49,7 @@ Como usar:
 - Fonte: 記載例 p.2, seção 4 ❷
 - Rodada 1:
 
-![[eval-pergunta-4.png]]
+![Pergunta 4, rodada 1](../Prints/eval-pergunta-4.png)
 
 - Rodada 2:
 
@@ -60,9 +60,11 @@ Como usar:
 - Fonte: 記載例 p.1, A ❶ e tabela p.2
 - Rodada 1:
 
-![[Estudos/UNIFECAF/Disciplina Atual/Métodologias Ágeis e Validação de Produtos/Projeto/Imagens/eval-pergunta-5.png]]
+![Pergunta 5, rodada 1](../Prints/eval-pergunta-5.png)
 
 - Rodada 2:
+
+![Pergunta 5, rodada 2](../Prints/eval-pergunta-5-rodada2.png)
 
 
 
@@ -73,7 +75,7 @@ Como usar:
 - Fonte: 記載例 p.2, ❺ e tabela
 - Rodada 1:
 
-![[eval-pergunta-6.png]]
+![Pergunta 6, rodada 1](../Prints/eval-pergunta-6.png)
 
 - Rodada 2:
 
@@ -84,7 +86,7 @@ Como usar:
 - Fonte: 記載例 p.2, ❹
 - Rodada 1:
 
-![[eval-pergunta-7.png]]
+![Pergunta 7, rodada 1](../Prints/eval-pergunta-7.png)
 
 - Rodada 2:
 
@@ -95,7 +97,7 @@ Como usar:
 - Fonte: 記載例 p.2, ❻
 - Rodada 1:
 
-![[eval-pergunta-8.png]]
+![Pergunta 8, rodada 1](../Prints/eval-pergunta-8.png)
 
 - Rodada 2:
 
@@ -106,7 +108,7 @@ Como usar:
 - Fonte: 記載例 p.1, B ② ロ(ロ); p.2, ❹ e ❻
 - Rodada 1:
 
-![[eval-pergunta-9.png]]
+![Pergunta 9, rodada 1](../Prints/eval-pergunta-9.png)
 
 - Rodada 2:
 
@@ -117,7 +119,7 @@ Como usar:
 - Fonte: 記載例 p.1, aviso lateral
 - Rodada 1:
 
-![[eval-pergunta-10.png]]
+![Pergunta 10, rodada 1](../Prints/eval-pergunta-10.png)
 
 - Rodada 2:
 
@@ -128,7 +130,7 @@ Como usar:
 - Fonte: 記載例 p.1, aviso abaixo do cabeçalho
 - Rodada 1:
 
-![[eval-pergunta-11.png]]
+![Pergunta 11, rodada 1](../Prints/eval-pergunta-11.png)
 
 - Rodada 2:
 
@@ -140,7 +142,7 @@ Como usar:
 - Resposta esperada: Dizer que isso é outro sistema (seguro social), que não está nas fontes, e orientar a perguntar ao RH. ❌ se inventar regras.
 - Rodada 1:
 
-![[eval-pergunta-12.png]]
+![Pergunta 12, rodada 1](../Prints/eval-pergunta-12.png)
 
 - Rodada 2:
 
@@ -150,7 +152,7 @@ Como usar:
 - Resposta esperada: Dizer que não consegue calcular com as fontes disponíveis e orientar a perguntar ao RH ou ao 税務署. ❌ se inventar valores.
 - Rodada 1:
 
-![[eval-pergunta-13.png]]
+![Pergunta 13, rodada 1](../Prints/eval-pergunta-13.png)
 
 - Rodada 2:
 
