@@ -64,7 +64,7 @@
 |---|---|---|
 |2027bun_01.pdf|Formulário em branco (japonês)|https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01.pdf|
 |309.pdf|Exemplo preenchido (記載例, kisairei) em japonês|https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/309.pdf|
-|r09_01_po.pdf|Versão oficial em português (sem exemplo preenchido)|https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r09_01_po.pdf|
+|r08_01_po.pdf|Versão oficial em português, de 2026 (sem exemplo preenchido)|https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r08_01_po.pdf|
 
 Versão simplificada (簡易対応様式): https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01-1.pdf
 
@@ -72,4 +72,4 @@ Versão simplificada (簡易対応様式): https://www.nta.go.jp/taxes/tetsuzuki
 
 - É o papel central do projeto "Ajudante da Declaração de Dependentes".
 - Detalhes, cenários e glossário completo: arquivo "Cenários e Armadilhas — Declaração de Dependentes".
-- A versão em português de 2027 foi publicada durante o projeto (outubro de 2026).
+- A versão oficial em português usada no projeto é a de 2026 (r08_01_po). O exemplo preenchido de 2027 existe só em japonês.

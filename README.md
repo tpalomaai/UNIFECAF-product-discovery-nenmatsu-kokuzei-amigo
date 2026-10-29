@@ -9,11 +9,12 @@ Case de Product Discovery da disciplina **Metodologias Ágeis e Validação de P
 | O quê | Link | Para quê |
 |---|---|---|
 | 🎥 Vídeo pitch | [Assistir no YouTube](https://youtu.be/8c1KtLUDgbE) | O projeto em até 4 minutos |
+| 📘 PDF teórico | [Abrir o PDF](PDF%20Te%C3%B3rico%20%E2%80%94%20Da%20Hip%C3%B3tese%20%C3%A0%20Evid%C3%AAncia.pdf) | O case completo, em 24 páginas |
 | 🤖 Assistente v2 — Nenmatsu Kokuzei Amigo | [Abrir no NotebookLM](https://notebook.google.com/notebook/ff5c43fc-adbe-49bc-aff0-a0a67c94022c) | Versão ajustada depois do teste |
 | 🤖 Assistente v1 | [Abrir no NotebookLM](https://notebook.google.com/notebook/fb38933d-f2a2-484e-ad90-f479220349fd) | Versão testada com as 8 pessoas |
 | 📝 Questionário | [Google Forms (encerrado)](https://docs.google.com/forms/d/e/1FAIpQLSdWkEzgEcBtztzTXN6StSxFSbEX4bHaYuxx9MwAe4zaqydfBw/viewform?usp=header) | O experimento |
 | 📄 Exemplo oficial 2027 | [Kokuzeichō (PDF)](https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/309.pdf) | Fonte principal do assistente |
-| 🇧🇷 Declaração 2027 em português | [Kokuzeichō (PDF)](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r09_01_po.pdf) | Versão oficial traduzida |
+| 🇧🇷 Declaração em português (2026) | [Kokuzeichō (PDF)](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r08_01_po.pdf) | Versão oficial traduzida, sem exemplo preenchido |
 
 ## 1. Problema
 
@@ -21,7 +22,7 @@ Todo fim de ano, quem trabalha como assalariado no Japão recebe da empresa o �
 
 **Público:** brasileiros assalariados no Japão, principalmente famílias com cônjuge ou filhos que fazem *arubaito* e quem sustenta familiares no Brasil.
 
-**Oportunidade:** a Agência Nacional de Impostos do Japão (Kokuzeichō) publica uma versão em português, mas sem exemplo preenchido e com trechos de tradução confusos.
+**Oportunidade:** a Agência Nacional de Impostos do Japão (国税庁, Kokuzeichō) publica uma versão em português, mas ela é de 2026, tem trechos de tradução confusos e não traz exemplo preenchido. O exemplo de preenchimento (記載例, *kisairei*) existe só em japonês.
 
 
 ## 2. Hipóteses
@@ -42,7 +43,7 @@ Em vez de desenvolver um app, o MVP foi um assistente no **NotebookLM**, que res
 
 Antes de ir para as pessoas, o assistente passou por um **eval** de 13 perguntas: rodada 1 = 10/11 + 2/2; rodada 2 = 11/11 + 2/2 (o erro da rodada 1 foi um valor de renda líquida inventado, corrigido na instrução).
 
-🔗 [Assistente v1 (NotebookLM)](https://notebook.google.com/notebook/fb38933d-f2a2-484e-ad90-f479220349fd)
+🔗 [Assistente v1 (NotebookLM)](https://notebook.google.com/notebook/fb38933d-f2a2-484e-ad90-f479220349fd) · [Instrução v1](02%20-%20Assistente%20v1/Instru%C3%A7%C3%A3o%20v1.md) · [Eval v1](02%20-%20Assistente%20v1/Eval%20%E2%80%94%20Assistente%20da%20Declara%C3%A7%C3%A3o%20de%20Dependentes.md)
 
 
 ## 4. Experimento
@@ -181,13 +182,32 @@ A v2 foi validada só com eval e red-teaming. Se ela faz as pessoas acertarem ma
 
 ## Como a IA foi usada
 
-| Etapa | Técnica |
-|---|---|
-| Planejamento | Chain-of-Thought e Tree-of-Thoughts |
-| Pesquisa de cenários | Self-Consistency |
-| Revisão da base | Self-Refine e avaliação de fidelidade, cobertura e clareza |
-| Validação do assistente | Evals e red-teaming |
-| Revisão de textos e dados | Chain-of-Verification |
-| Desenho da v2 | Graph-of-Thoughts |
+| Etapa | Técnica | Como a IA ajudou | O que eu decidi |
+|---|---|---|---|
+| Planejamento | Tree-of-Thoughts | Gerou e comparou 10 abordagens | Escolhi o problema |
+| Cenários | Self-Consistency | Levantou 25 cenários por 3 caminhos | Defini os tipos de família |
+| Revisão da base | Self-Refine | Conferiu as regras na fonte oficial (9 correções) | Aprovei as correções |
+| MVP | Instrução com 10 regras | Redigiu a instrução do assistente | Montei o NotebookLM |
+| Validação v1 | Evals (13 perguntas) | Achou um valor inventado | Rodei os testes |
+| Experimento | Rascunho estruturado | Ajudou no questionário e na família fictícia | Registrei os critérios antes |
+| Análise | Chain-of-Verification | Conferiu cada número na resposta de origem | Apliquei a regra: AJUSTAR |
+| Versão 2 | Graph-of-Thoughts | Ligou os achados às mudanças | Escolhi o escopo da v2 |
+| Validação v2 | Evals + red-teaming | Corrigiu 23 respostas e achou falhas | Rodei as 3 rodadas |
+| Entrega | Few-shot + tags XML | Ajudou no PDF, README e slides | Gravei o vídeo e revisei |
 
-A IA apoiou a pesquisa e a organização. A interpretação dos dados e a decisão foram minhas, seguindo a regra registrada antes do teste.
+**Ferramentas:** Claude (apoio em todas as etapas) · NotebookLM (o assistente) · ChatGPT (ilustrações) · Canva (slides e PDF).
+
+**A IA não** validou o mercado, não respondeu a pesquisa, não escolheu a decisão e não teve acesso a dados pessoais. A interpretação dos dados e a decisão foram minhas, seguindo a regra registrada antes do teste.
+
+
+## 📁 Estrutura do repositório
+
+| Pasta ou arquivo | O que tem |
+|---|---|
+| `PDF Teórico — Da Hipótese à Evidência.pdf` | O case completo (parte teórica) |
+| `01 - Pesquisa/` | Base de conhecimento do assistente: cenários e armadilhas, glossário, mapa dos 3 papéis, guia do gensen chōshūhyō e os documentos oficiais da Kokuzeichō com um resumo de cada um |
+| `02 - Assistente v1/` | Instrução v1 (as 10 regras) e o eval de 13 perguntas |
+| `03 - Experimento/` | Questionário, família fictícia e gabarito, critérios congelados (com o adendo), respostas anonimizadas (Pessoa 1 a 8), análise, Lean Canvas e gráficos r01 a r14 |
+| `04 - Assistente v2/` | Plano com Graph-of-Thoughts, instrução v2.1, regras de resposta e as 3 rodadas do eval v2 |
+| `05 - Uso de IA/` | Como a IA foi usada em cada etapa, prompt few-shot do PDF e verificação do rascunho |
+| `Prints/` | Imagens usadas no README, no PDF (`Prints/pdf/`) e no vídeo (`Prints/video/`) |
