@@ -40,7 +40,7 @@ Depois do ajuste de fim de ano, a empresa entrega mais um papel:
 
 ## Versões oficiais em português
 
-- Declaração de dependentes 2027: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r09_01_po.pdf
+- Declaração de dependentes (versão em português de 2026): https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r08_01_po.pdf
 - 基・配・特・所 2026: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/1648_73_gaikokugo_r08_po01.pdf
 - Seguros 2026: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r08_05_po.pdf
 

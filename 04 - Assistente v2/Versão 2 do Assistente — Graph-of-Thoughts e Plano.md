@@ -78,7 +78,7 @@ Critérios: ataca o problema medido · cabe em 2h · tem fonte oficial · não a
 
 1. Cenários e Armadilhas — Declaração de Dependentes (o mesmo da v1)
 2. 記載例 2027 (o mesmo da v1)
-3. Declaração de dependentes 2027 em português (oficial): https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r09_01_po.pdf
+3. Declaração de dependentes em português, versão de 2026 (oficial): https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r08_01_po.pdf
 4. Formulário 基・配・特・所 2026 em português (oficial): https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/1648_73_gaikokugo_r08_po01.pdf
 5. Gensen Chōshūhyō — Onde achar o bruto e o líquido (SEM a seção 6, que tem as respostas do eval)
 6. Mapa dos 3 Papéis
